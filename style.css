@@ -1,0 +1,65 @@
+ul{
+  list-style:none;
+  padding:0;
+}
+a{
+  text-decoration:none;
+}
+header a{
+  color:#000000;
+  font-size: 20px;
+}
+
+header ul{
+  display:flex;
+  margin:0;
+  padding:20px;
+}
+header li{
+  padding:0 15px;
+}
+.header_logo {
+  font-size:36px;
+  float:left;
+  padding:20px 40px;
+}
+.header_list{
+  font-size:20px;
+  float:right;
+  padding:20px 30px;
+}
+header {
+  position: fixed;
+  z-index: 999;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 5px 2px;
+  background: pink;
+  box-sizing: border-box;
+}
+
+
+
+
+.contact-form{
+  padding-top:250px;
+}
+input,textarea{
+  width: 400px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  padding: 20px;
+  font-size: 18px;
+  border:1px solid #dee7ec;
+}
+.contact-submit{
+  background-color:pink;
+  color: #889eab;
+}
+
+footer {
+  width: 100%;
+  height: 50px;
+  background: #ffffff;
+}  
